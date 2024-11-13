@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+    int p,n,r,si;
+    printf("Enter value of p,n,r :  ");
+    scanf("%d %d %d",&p,&n,&r);
+    si=p*n*r/100;
+    printf("the simple interest value %d",si);
+}
