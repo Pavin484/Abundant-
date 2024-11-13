@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+void main()
+
+{
+    int num1,num2;
+    char ch;
+    printf("Enter two number:");
+    scanf("%d %d",&num1,&num2);
+    printf("Enter an operator:");
+    scanf(" %c",&ch);
+    
+    if (ch == '+')
+    {
+        
+        printf("the sum of the number: %d ",num1+num2);
+    }
+     else if(ch == '-')
+    {
+        printf("The sub of the number :%d",num1-num2);
+    }
+     else if(ch == '*')
+    {
+        printf("The mutiple of the number : %d",num1*num2);
+    }
+    
+    else if (ch == '/')
+    {
+        printf("The division of the number : %d",num1/num2);
+    }
+    
+    else if (ch == '%')
+    {
+        printf("The module of the number : %d ",num1%num2);
+    }
+    else 
+    {
+        printf("invaild operator");
+    }
+}
