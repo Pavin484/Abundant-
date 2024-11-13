@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+    int a=30,b=40;//binary 30-00011110 & 40-00101000
+    printf("%d \n",a&b);
+    /*(&)bitwise if one is 0 all are zero if both are 1 then 1,so binary 00001000*/
+    printf("%d \n",a|b);
+    /*(|) bitwise if one is 1 all are 1 if both are 0 then 0,so binary 00111110*/
+    printf("%d \n",a^b);
+    /*(^) bitwise like (|)but if both are 1 then 0 so,binary 00110110*/
+    printf("%d \n",~a);//~ bitwise add 1 to a and add negative symbol
+    printf("%d \n",a<<3);//<<move to 3 digit left
+    printf("%d \n",b>>1);//>>move to 1 digit right
+    
+}
