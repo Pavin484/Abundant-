@@ -1,0 +1,29 @@
+#include<stdio.h>
+void main()
+{
+    int a ,b ;
+    char k ;
+    printf("Enter any two number : ");
+    scanf("%d %d",&a,&b);
+    printf("enter an operator : ");
+    scanf(" %c",&k);
+    switch(k)
+    {
+        case'+':
+        printf("The sum of two numbers are %d",a+b);
+        break;
+        case'-':
+        printf("The subraction of two number are %d",a-b);
+        break;
+        case'*':
+        printf("the mutiple of two number is %d",a*b);
+        break;
+        case'/':
+        printf("the division of two number is %d",a/b);
+        break;
+        case'%':
+        printf("the modules of two number is %d",a%b);
+        break;
+        
+    }
+}
