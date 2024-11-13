@@ -1,0 +1,22 @@
+traffic light system
+#include <stdio.h>
+void main()
+{
+    char color;
+    printf("enter a colour : ");
+    scanf("%c",&color);
+    if(color=='r')
+    {
+        printf("stop");
+    }
+    else if(color=='y')
+    {
+        printf("get ready");
+    
+    }
+    else if(color=='g')
+    {
+        printf("GO");
+        
+    }
+}
